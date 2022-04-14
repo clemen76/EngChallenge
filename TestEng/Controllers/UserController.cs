@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TestEng.Data.Models;
-using TestEng.AppServices.Services;
+using EngChallenge.Data.Models;
+using EngChallenge.AppServices.Services;
 
-namespace TestEng.Controllers
+namespace EngChallenge.Controllers
 {
     public class UserController : Controller
     {

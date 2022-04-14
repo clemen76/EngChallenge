@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using Xunit;
 using Moq;
-using TestEng.Controllers;
-using TestEng.AppServices.Services;
-using TestEng.Data.Models;
-using TestEng.Entities.Repositories;
+using EngChallenge.Controllers;
+using EngChallenge.AppServices.Services;
+using EngChallenge.Data.Models;
+using EngChallenge.Entities.Repositories;
 
-namespace TestEng.Unit_Tests.Tests
+namespace EngChallenge.Unit_Tests.Tests
 {
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClass()]
     public class UserControllerTests

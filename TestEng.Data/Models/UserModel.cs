@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace TestEng.Data.Models
+namespace EngChallenge.Data.Models
 {
     public class UserModel
     {

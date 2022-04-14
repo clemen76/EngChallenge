@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestEng.Data\TestEng.Data.csproj" />
+    <ProjectReference Include="..\TestEng.Data\EngChallenge.Data.csproj" />
   </ItemGroup>
 
 </Project>

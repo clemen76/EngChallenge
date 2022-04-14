@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using TestEng.AppServices.Services;
-using TestEng.Entities;
-using TestEng.Entities.Repositories;
+using EngChallenge.AppServices.Services;
+using EngChallenge.Entities;
+using EngChallenge.Entities.Repositories;
 using Microsoft.Extensions.Hosting;
 
-namespace TestEng
+namespace EngChallenge
 {
     public class Startup
     {
@@ -25,8 +25,8 @@ namespace TestEng
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<TestEngContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("TestEngContext")));
+            services.AddDbContext<EngChallengeContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EngChallengeContext")));
 
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();

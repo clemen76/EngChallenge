@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestEng\TestEng.csproj" />
+    <ProjectReference Include="..\TestEng\EngChallenge.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32014.148
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestEng", "TestEng\TestEng.csproj", "{148C6E87-5D46-4612-99AB-BD739D0754D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngChallenge", "TestEng\EngChallenge.csproj", "{148C6E87-5D46-4612-99AB-BD739D0754D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestEngTests", "TestEngTests\TestEngTests.csproj", "{DC2E31E9-1FAF-444E-8DA0-F8A8A8B35942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngChallenge.Tests", "TestEngTests\EngChallenge.Tests.csproj", "{DC2E31E9-1FAF-444E-8DA0-F8A8A8B35942}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestEng.AppServices", "TestEng.AppServices\TestEng.AppServices.csproj", "{850C3404-8428-45E8-B881-35C70B4DC033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngChallenge.AppServices", "TestEng.AppServices\EngChallenge.AppServices.csproj", "{850C3404-8428-45E8-B881-35C70B4DC033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEng.Data", "TestEng.Data\TestEng.Data.csproj", "{F5D3C640-701D-4E42-8764-4AB2379490D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngChallenge.Data", "TestEng.Data\EngChallenge.Data.csproj", "{F5D3C640-701D-4E42-8764-4AB2379490D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEng.Entities", "TestEng.Entities\TestEng.Entities.csproj", "{AAE81F53-55D7-42D1-934A-B5E085356034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EngChallenge.Entities", "TestEng.Entities\EngChallenge.Entities.csproj", "{AAE81F53-55D7-42D1-934A-B5E085356034}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

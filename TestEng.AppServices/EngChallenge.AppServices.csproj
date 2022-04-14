@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestEng.Data\TestEng.Data.csproj" />
-    <ProjectReference Include="..\TestEng.Entities\TestEng.Entities.csproj" />
+    <ProjectReference Include="..\TestEng.Data\EngChallenge.Data.csproj" />
+    <ProjectReference Include="..\TestEng.Entities\EngChallenge.Entities.csproj" />
   </ItemGroup>
 
 </Project>

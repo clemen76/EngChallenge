@@ -29,8 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestEng.AppServices\TestEng.AppServices.csproj" />
-    <ProjectReference Include="..\TestEng.Data\TestEng.Data.csproj" />
+    <ProjectReference Include="..\TestEng.AppServices\EngChallenge.AppServices.csproj" />
+    <ProjectReference Include="..\TestEng.Data\EngChallenge.Data.csproj" />
   </ItemGroup>
 
 </Project>

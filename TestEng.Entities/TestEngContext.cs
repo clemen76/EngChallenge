@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TestEng.Data.Models;
+using EngChallenge.Data.Models;
 
-namespace TestEng.Entities
+namespace EngChallenge.Entities
 {
-    public class TestEngContext : DbContext
+    public class EngChallengeContext : DbContext
     {
-        public TestEngContext (DbContextOptions<TestEngContext> options)
+        public EngChallengeContext (DbContextOptions<EngChallengeContext> options)
             : base(options)
         {
         }

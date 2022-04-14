@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace TestEng.Controllers
+namespace EngChallenge.Controllers
 {
     public class HomeController : Controller
     {

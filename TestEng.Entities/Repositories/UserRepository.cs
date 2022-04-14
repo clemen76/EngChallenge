@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TestEng.Data.Models;
+using EngChallenge.Data.Models;
 
-namespace TestEng.Entities.Repositories
+namespace EngChallenge.Entities.Repositories
 {
     public interface IUserRepository : IDisposable
     {
@@ -23,8 +23,8 @@ namespace TestEng.Entities.Repositories
     {
         #region constructor
 
-        private readonly TestEngContext _ctx;
-        public UserRepository(TestEngContext ctx)
+        private readonly EngChallengeContext _ctx;
+        public UserRepository(EngChallengeContext ctx)
         {
             _ctx = ctx;
         }

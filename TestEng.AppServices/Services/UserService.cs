@@ -1,11 +1,11 @@
-﻿using TestEng.Data.Models;
+﻿using EngChallenge.Data.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System;
 using System.Threading.Tasks;
-using TestEng.Entities.Repositories;
+using EngChallenge.Entities.Repositories;
 
-namespace TestEng.AppServices.Services
+namespace EngChallenge.AppServices.Services
 {
     public interface IUserService 
     {
